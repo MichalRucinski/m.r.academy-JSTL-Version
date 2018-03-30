@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+	body {
+	background-color: gray;
+	}	
+	#container {
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+	background-color: lightgrey;
+	}
+	nav {
+	background-color: darkcyan;
+	}
+	a.menu{
+	display: inline-block;
+	width: 20%;
+	padding: 15px 0px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	}
+	a.menu:hover {
+	background-color: crimson;
+	}
+	article {
+	width: 80%;
+	margin: 0 auto;
+	}
+	#piano {
+	display: inline-block;
+	width: 34%;
+	}
+	#guitar {
+	display: inline-block;
+	width: 33%;
+	}
+	#notes {
+	display: inline-block;
+	width: 33%;
+	}
+	footer{
+	text-align: center;
+	font-style: italic;
+	font-size: 12px;
+	}
+	a.chooseclass{
+	display: block;
+	padding: 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	}
+	a.chooseclass:hover{
+	font-size: 30px;
+	}
+	#class{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 40px;
+	text-align: center;
+	border-top-style: double;
+	}
+	#class > p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+	#studentsAll{
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 10px 40px 10px;
+	}
+	#students{
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 150px;
+	border:2px solid black;
+	background-color: crimson;
+	}
+	#trophies{
+	padding: 0px;
+	width: 146px;
+	height: 170px;
+	margin: 0 auto;
+	}
+	#students >p{
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	}
+	#leftdiv{
+	display: inline-block;
+	width: 50%;
+	height: 151px;
+	background-color: #00bebe;
+	font-size: 24px;
+	}
+	#rightdiv{
+	display: inline-block;
+	width: 50%;
+	height: 151px;
+	background-color: #00bebe;
+	vertical-align: top;
+	font-size: 38px;
+	}
+	#leftdiv > a{
+	color: white;
+	}
+	#rightdiv > a{
+	color: white;
+	}
+	#levelsBody{
+	margin: 0 auto;
+	width: 710px;
+	}
+	#levelsChoose{
+	width: 70%;
+	margin: 0 auto;
+	background-color: darkcyan;
+	}
+	#levelsInstruments{
+	width: 50%;
+	display: inline-block;
+	padding: 15px 0px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	}
+	#levelsInstruments:hover {
+	background-color: crimson;
+	}
+	#levelsChoose2{
+	width: 510px;
+	margin: 0 auto;
+	background-color: darkcyan;
+	}
+	#levels{
+	display: inline-block;
+	padding: 15px 15px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	}
+	#levels:hover {
+	background-color: crimson;
+	}
+	.trophyLevels{
+	width: 150px;
+	height: 170px;
+	background-color: darkcyan;
+	margin: 0 auto;
+	}
+	img.trophyLevels{
+	width: 150px;
+	height: 170px;
+	border:2px solid black;
+	}
+	#user{
+	float: left;
+	width: 25%;
+	background-color: crimson;
+	padding: 0px;
+	}
+	#user >p{
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	}
+	#usersheet{
+	width:75%;
+	height: 100%;
+	display: inline-block;
+	background-color: darkgrey;
+	text-align: center;
+	}
+	textarea{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: 80%;
+	height: 240px;
+	
+	}
+	
+	
